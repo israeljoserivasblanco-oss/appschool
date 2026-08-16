@@ -1,0 +1,36 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    margin: 2rem;
+}
+
+.divRight {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+}
+
+.divLeft {
+    background-color: #7c6c6c;
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+
+}
+
+.divContainer {
+    display: flex;
+    height: 240px;
+    width: 240px;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    writing-mode:inherit;
+    direction: ltr;
+    place-content: flex-end center;
+    margin: 2rem;
+} 
+
