@@ -12,18 +12,13 @@
         
                 <div class="divBox">
 
-                    <div class="box1Content">
-                        <div class="derechaAbajo">
-
-                            <div>
-                                <p id="texto">Texto</p>
-                            </div>
-
-                            <div>
-                                <p id="texto">Texto2</p>
-                            </div>
+                    <div class="box1Content" id="box1Cont">
+                        <div class="botomEj">
+                            <h3>algoritmica ej</h3>
                         </div>
                     </div>
+
+                    
 
                     <div class="box2Content">
 
@@ -32,7 +27,7 @@
                         </div>
 
                         <div>
-                            <input id="buttonIZA" type="button" value="save">
+                            <input onclick="AddToList()" id="buttonIZA" type="button" value="save">
                         </div>
                         
                     </div>
@@ -49,17 +44,14 @@
                         <input type="text" id="busqueda" placeholder="Buscar...">
                     </div>
 
+                    <div>
+                        <button  id="agregar2">buscar</button>
+                        <button onclick="onAddToList()" id="buttonAgg2">+</button>
+                    </div>
+
                 </div>
         
-                <div class="derechaAbajo">
-
-                    <div>
-                        <p id="texto">Texto</p>
-                    </div>
-
-                    <div>
-                        <p id="texto">Texto2</p>
-                    </div>
+                <div  id="taskList" class="derechaAbajo">
 
                 </div>
         
